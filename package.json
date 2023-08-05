@@ -1,0 +1,23 @@
+{
+  "name": "assignement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon index.js",
+    "lint": "./node_modules/.bin/eslint .",
+    "apidoc": "apidoc -i src/ -o docs/apidoc/"
+  },
+  "author": "Aditya Saini",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "csv-parse": "^5.4.0",
+    "livereload": "^0.9.3",
+    "network": "^0.6.1",
+    "serve-static": "^1.15.0",
+    "winston": "^3.10.0"
+  }
+}
